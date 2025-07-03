@@ -17,7 +17,9 @@ export default function UserProfile() {
         <div className='bg-gray-300 w-100 h-1 mt-5 rounded-full mb-2'>
         </div>
         <h1 className=' font-bold text-2xl'>Information</h1>
-        {/* <p className="text-gray-600">Stanford Alum</p> */}
+        <h2 className='font-bold mt-2 text-xl'>Networks</h2>
+        <p className="text-gray-600">Mariano MMSU Alum</p>
+        <h2 className='font-bold mt-2 text-xl'>Networks</h2>
         <p className="text-gray-600">Laoag City, Ilocos Norte</p>
       </div>
     </div>
