@@ -22,7 +22,7 @@ export default function PostItem({ post, isTemporary = false }: PostItemProps) {
       
       {/* Replace your img tag with this optimized Image component */}
       {post.photo_url && (
-        <div className="mt-2 relative w-full max-w-2xl rounded-md overflow-hidden aspect-[4/3]">
+        <div className="mt-2 relative w-full max-w-xl rounded-md overflow-hidden aspect-[4/3]">
       <Image
         src={post.photo_url}
         alt="Post content"
